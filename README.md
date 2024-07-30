@@ -2,7 +2,7 @@
 
 [![Título del video](https://github.com/user-attachments/assets/9f5a9112-8ae0-4d29-9891-6c45be0f4727)](https://www.youtube.com/watch?v=sKNYA7EUtPc)
 
-##MobileNet
+## MobileNet
 MobileNet es una arquitectura de red neuronal profunda eficiente en términos de computación y memoria. Utiliza convoluciones separables en profundidad (depthwise separable convolutions) para reducir el número de parámetros y operaciones computacionales necesarias. Esta arquitectura está optimizada para dispositivos móviles, donde el poder de procesamiento y la memoria son limitados.
 
 ## 📋 Resumen
