@@ -2,6 +2,9 @@
 
 [![Título del video](https://github.com/user-attachments/assets/9f5a9112-8ae0-4d29-9891-6c45be0f4727)](https://www.youtube.com/watch?v=sKNYA7EUtPc)
 
+##MobileNet
+MobileNet es una arquitectura de red neuronal profunda eficiente en términos de computación y memoria. Utiliza convoluciones separables en profundidad (depthwise separable convolutions) para reducir el número de parámetros y operaciones computacionales necesarias. Esta arquitectura está optimizada para dispositivos móviles, donde el poder de procesamiento y la memoria son limitados.
+
 ## 📋 Resumen
 
 Este proyecto desarrolla un sistema de monitoreo automatizado y control de aforo en tiempo real utilizando Transfer Learning en la arquitectura MobileNet-SSD, optimizado para dispositivos de baja capacidad computacional. MobileNet-SSD equilibra precisión y eficiencia, ideal para entornos con recursos limitados. El sistema detecta y cuenta personas en tiempo real, proporcionando datos precisos sobre el aforo. Implementado en Python y TensorFlow, el modelo se optimiza para dispositivos como Raspberry Pi. Las pruebas demuestran su efectividad en diversos escenarios, ofreciendo una solución viable para el control de aforo en seguridad, salud y gestión de eventos.
