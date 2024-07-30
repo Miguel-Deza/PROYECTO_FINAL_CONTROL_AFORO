@@ -1,5 +1,7 @@
 # 🌟 Sistema Automatizado de Monitoreo y Control de Ocupación en Tiempo Real Usando Transfer Learning con la Arquitectura MobileNet-SSD 🌟
 
+[![Título del video](https://github.com/user-attachments/assets/9f5a9112-8ae0-4d29-9891-6c45be0f4727)](https://www.youtube.com/watch?v=sKNYA7EUtPc)
+
 ## 📋 Resumen
 
 Este proyecto desarrolla un sistema de monitoreo automatizado y control de aforo en tiempo real utilizando Transfer Learning en la arquitectura MobileNet-SSD, optimizado para dispositivos de baja capacidad computacional. MobileNet-SSD equilibra precisión y eficiencia, ideal para entornos con recursos limitados. El sistema detecta y cuenta personas en tiempo real, proporcionando datos precisos sobre el aforo. Implementado en Python y TensorFlow, el modelo se optimiza para dispositivos como Raspberry Pi. Las pruebas demuestran su efectividad en diversos escenarios, ofreciendo una solución viable para el control de aforo en seguridad, salud y gestión de eventos.
@@ -47,4 +49,61 @@ El modelo entrenado se optimizó para su implementación en dispositivos de baja
 El sistema se evaluó en diversos escenarios para validar su efectividad y precisión. Se realizaron pruebas en tiempo real para verificar la capacidad del sistema de detectar y contar personas en distintos entornos y condiciones de iluminación. También se incluyó un script para realizar las pruebas en videos, lo cual tuvo una gran acogida para demostrar los resultados. Para lo cual se usaron los scripts de Cartucho para medir el mAP y el de EdjeElectronics que proporcionaba el ejemplo de uso.
 
 ### 🏗️ Estructura del proyecto
+
+```
+PROYECTO_FINAL_CONTROL_AFORO
+├─ colab_training
+│  └─ PROYECTO_FINAL_ENTRENAMIENTO.ipynb
+├─ count_person_video.py
+├─ count_person_webcam.py
+├─ custom_model_lite
+│  ├─ detect.tflite
+│  ├─ labelmap.pbtxt
+│  ├─ labelmap.txt
+│  ├─ pipeline_file.config
+│  └─ saved_model
+│     ├─ saved_model.pb
+│     └─ variables
+│        ├─ variables.data-00000-of-00001
+│        └─ variables.index
+├─ custom_model_lite.zip
+├─ images.zip
+├─ mylib
+│  ├─ centroidtracker.py
+│  ├─ config.py
+│  ├─ mailer.py
+│  ├─ thread.py
+│  ├─ trackableobject.py
+│  └─ __pycache__
+│     ├─ centroidtracker.cpython-312.pyc
+│     ├─ centroidtracker.cpython-37.pyc
+│     ├─ centroidtracker.cpython-39.pyc
+│     ├─ config.cpython-312.pyc
+│     ├─ config.cpython-37.pyc
+│     ├─ config.cpython-39.pyc
+│     ├─ mailer.cpython-312.pyc
+│     ├─ mailer.cpython-37.pyc
+│     ├─ mailer.cpython-39.pyc
+│     ├─ thread.cpython-312.pyc
+│     ├─ thread.cpython-37.pyc
+│     ├─ thread.cpython-39.pyc
+│     ├─ trackableobject.cpython-312.pyc
+│     ├─ trackableobject.cpython-37.pyc
+│     └─ trackableobject.cpython-39.pyc
+├─ PDF
+│  └─ PROYECTO_FINAL_IEEE.pdf
+├─ README.md
+├─ scripts.txt
+├─ TFLite_detection_image.py
+├─ TFLite_detection_stream.py
+├─ TFLite_detection_video.py
+├─ TFLite_detection_webcam.py
+└─ video_test
+   ├─ a.mp4
+   ├─ b.mp4
+   ├─ c.mp4
+   ├─ rf.mp4
+   └─ y.mp4
+
+```
 
